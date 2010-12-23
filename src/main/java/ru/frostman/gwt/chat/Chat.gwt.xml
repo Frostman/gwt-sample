@@ -1,0 +1,11 @@
+<module>
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.gwt.uibinder.UiBinder"/>
+
+    <entry-point class='ru.frostman.gwt.chat.client.Chat'/>
+    
+    <servlet path='/ChatService' class='ru.frostman.gwt.chat.server.ChatServiceImpl'/>
+    
+    <!-- TODO Speed up GWT compilation (not for production)-->
+    <set-property name="user.agent" value="safari"/>
+</module>

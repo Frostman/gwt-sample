@@ -1,0 +1,19 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+    <gwt:HorizontalPanel>
+        <gwt:VerticalPanel>
+            <gwt:ScrollPanel ui:field="messagesScrollPanel">
+                <gwt:HTML ui:field="messages">
+                </gwt:HTML>
+            </gwt:ScrollPanel>
+            <gwt:HorizontalPanel>
+                <gwt:TextBox ui:field="message" text=""/>
+                <gwt:Button ui:field="button" text="post"/>
+            </gwt:HorizontalPanel>            
+        </gwt:VerticalPanel>
+        <gwt:ScrollPanel ui:field="usersScrollPanel">
+            <gwt:HTML ui:field="users">
+            </gwt:HTML>
+        </gwt:ScrollPanel>
+    </gwt:HorizontalPanel>
+</ui:UiBinder>
